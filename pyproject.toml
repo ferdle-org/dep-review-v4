@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "your_project_name"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg-binary = "~3.2.4"
+psycopg2-binary = "~2.9.10"
+aiohttp = "~3.11.11"
+confluent-kafka = "~2.8.0"
+greenlet = "~3.1.1"
+numpy = "~2.2.0"
+aiohappyeyeballs = "~2.4.4"
+jedi = "~0.19.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
